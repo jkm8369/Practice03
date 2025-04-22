@@ -8,7 +8,7 @@ public class Ex05 {
 		boolean flag = true;
 		
 		while(flag) {
-			if(i>=5) {
+			if(i>5) {
 				flag = false;
 			}
 			System.out.println(i);
