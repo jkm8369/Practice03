@@ -13,15 +13,15 @@ public class Ex20 {
 		System.out.println("===================================");
 		
 		
-		int correctNum = (int)(Math.random()*100) + 1;
-		System.out.println(correctNum);
+		int num = (int)(Math.random()*100) + 1;
+		boolean run = true;
 		
-		while(true) {
-			System.out.println(">>");
-			int num = sc.nextInt();
-			
-			
-			
+		while(run) {
+			System.out.print(">>");
+			System.out.println(num);
+			if(num>num) {
+				System.out.println("더 낮게");
+			}
 			
 		}
 		
