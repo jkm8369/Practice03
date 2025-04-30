@@ -9,6 +9,7 @@ public class Ex19 {
 		Scanner sc = new Scanner(System.in);
 		boolean a = true;
 		int balance = 0;
+		int num;
 		
 		while(a) {
 			
@@ -19,7 +20,7 @@ public class Ex19 {
 			
 		
 		
-			int num = sc.nextInt();
+			num = sc.nextInt();
 		
 			switch(num) {
 				case 1:
@@ -46,6 +47,7 @@ public class Ex19 {
 					
 				default:
 					System.out.println("다시 입력해주세요");
+					break;
 			}
 		}
 		
